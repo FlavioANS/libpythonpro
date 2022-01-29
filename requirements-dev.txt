@@ -4,10 +4,11 @@ pycodestyle==2.8.0
 pyflakes==2.4.0
 
 # Deps do Pytest
-py==1.8.2
+py>=1.8.2
 toml==0.10.2
-pluggy==1.0.0
+pluggy<2.0,>=0.12
 iniconfig==1.1.1
 attrs>=19.2.0
+atomicwrites-1.4.0
 -r requirements.txt
 
