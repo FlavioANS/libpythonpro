@@ -1,6 +1,6 @@
 name: libpythonpro-CI
 
-on:
+on: [push]
 
 push:
 
