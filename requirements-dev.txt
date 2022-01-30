@@ -10,5 +10,11 @@ pluggy<2.0,>=0.12
 iniconfig==1.1.1
 attrs>=19.2.0
 atomicwrites==1.4.0
+
+#Coverage
+coverage==6.3
+pytest-cov==3.0.0
+
+
 -r requirements.txt
 
