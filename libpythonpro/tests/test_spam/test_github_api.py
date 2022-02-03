@@ -13,7 +13,7 @@ def avatar_url(mocker):
         "login": "flavio", "id": 22728, "node_id": "MDQ6VXNlcjIyNzI4",
         "avatar_url": url,
     }
-    get_mock = mocker.patch('libpythonpro.github_api.requests.get')
+    mocker.patch('libpythonpro.github_api.requests.get')
     github_api.requests.get = Mock(return_value=resp_mock)
     yield url
 
